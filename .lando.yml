@@ -1,0 +1,6 @@
+name: demo-kanata-drupal-cms
+recipe: lagoon
+config:
+  flavor: drupal
+  build:
+    - composer install
